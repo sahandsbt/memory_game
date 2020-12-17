@@ -1,2 +1,5 @@
 # MemoryGame_SDL
-A memory game 4*4 with sdl in c++ , Please cite the source .Thanks
+Please cite the source .Thanks
+This game is made by Sahand Sabet
+Sa-Sa.ir
+Github.com/sahand85
