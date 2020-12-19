@@ -17,7 +17,7 @@ int main( int argc, char* args[] )
     bool t = true ;
     SDL_Window * w = SDL_CreateWindow("Group 3" , 0 , 0 , 800 , 600 , 0) ;
     SDL_Renderer * r = SDL_CreateRenderer(w , -1 , 0) ;
-    SDL_Surface * per[16] = {IMG_Load ("0.jfif"),IMG_Load ("1.png") , IMG_Load ("2.png"), IMG_Load ("3.jfif"), IMG_Load ("4.png"), IMG_Load ("5.jfif"), IMG_Load ("6.jfif"), IMG_Load ("7.png"), IMG_Load ("8.jfif"), IMG_Load ("9.png"), IMG_Load ("10.png"), IMG_Load ("11.jfif"), IMG_Load ("12.png"), IMG_Load ("13.png"), IMG_Load ("14.png"), IMG_Load ("15.jfif")} ;
+    SDL_Surface * per[16] = {IMG_Load ("image/0.jfif"),IMG_Load ("image/1.png") , IMG_Load ("image/2.png"), IMG_Load ("image/3.jfif"), IMG_Load ("image/4.png"), IMG_Load ("image/5.jfif"), IMG_Load ("image/6.jfif"), IMG_Load ("image/7.png"), IMG_Load ("image/8.jfif"), IMG_Load ("image/9.png"), IMG_Load ("image/10.png"), IMG_Load ("image/11.jfif"), IMG_Load ("image/12.png"), IMG_Load ("image/13.png"), IMG_Load ("image/14.png"), IMG_Load ("image/15.jfif")} ;
     SDL_Rect i_peraa = {0 , 0 , 800 , 600} ;
     SDL_Texture * per_saa = SDL_CreateTextureFromSurface (r , per[10]) ;
     SDL_RenderCopy(r , per_saa , NULL , &i_peraa) ;
